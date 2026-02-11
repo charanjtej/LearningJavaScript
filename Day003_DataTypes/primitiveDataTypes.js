@@ -15,3 +15,12 @@ let myHouseAddress = null;
 console.log(typeof myHouseAddress); // what must be ideally output of it. => object
 
 //symbol helps us to create immutable key for object
+
+// pass by value: practical changes
+let newAge = age; //= assignment operator, assign the value age to newAge variable
+console.log("newage: "+newAge);
+console.log("age: " + age);
+console.log("===================================");
+newAge = 30; //Here I changed the value of newAge variable, did effect the value of age variable?
+console.log("newage: "+newAge);
+console.log("age: " + age);
