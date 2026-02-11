@@ -22,5 +22,5 @@ console.log("newage: "+newAge);
 console.log("age: " + age);
 console.log("===================================");
 newAge = 30; //Here I changed the value of newAge variable, did effect the value of age variable?
-console.log("newage: "+newAge);
-console.log("age: " + age);
+console.log("newage: "+newAge); //30
+console.log("age: " + age); // 25
